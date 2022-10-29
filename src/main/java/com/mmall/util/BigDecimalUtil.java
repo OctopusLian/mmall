@@ -2,11 +2,17 @@ package com.mmall.util;
 
 import java.math.BigDecimal;
 
+/**
+ * Created by geely
+ */
 public class BigDecimalUtil {
+
     private BigDecimalUtil(){
 
     }
-    public static BigDecimal add(double v1, double v2){
+
+
+    public static BigDecimal add(double v1,double v2){
         BigDecimal b1 = new BigDecimal(Double.toString(v1));
         BigDecimal b2 = new BigDecimal(Double.toString(v2));
         return b1.add(b2);
@@ -32,4 +38,9 @@ public class BigDecimalUtil {
 
         //除不尽的情况
     }
+
+
+
+
+
 }
